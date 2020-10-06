@@ -1,0 +1,9 @@
+""" Ejemplo que probe para el request de provincias! (Guarda las provincias con letra S al ppo del nombre)
+with open('hola.csv', 'w') as f:
+        for line in response.json():
+
+            if line["contenido"][0] == "S" :
+                f.write(str(line["meta"]))
+                f.write(",")
+                f.write(str(line["contenido"]))
+                f.write('\n')
